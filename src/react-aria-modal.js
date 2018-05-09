@@ -1,7 +1,6 @@
 const React = require('react');
 const FocusTrap = require('focus-trap-react');
 const displace = require('react-displace');
-const noScroll = require('no-scroll');
 
 class Modal extends React.Component {
   static defaultProps = {
@@ -40,24 +39,9 @@ class Modal extends React.Component {
     if (props.escapeExits) {
       document.addEventListener('keydown', this.checkDocumentKeyDown);
     }
-
-    if (this.props.scrollDisabled) {
-      noScroll.on();
-    }
-  }
-
-  componentDidUpdate(prevProps) {
-    if (prevProps.scrollDisabled && !this.props.scrollDisabled) {
-      noScroll.off();
-    } else if (!prevProps.scrollDisabled && this.props.scrollDisabled) {
-      noScroll.on();
-    }
   }
 
   componentWillUnmount() {
-    if (this.props.scrollDisabled) {
-      noScroll.off();
-    }
     const applicationNode = this.getApplicationNode();
     if (applicationNode) {
       applicationNode.setAttribute('aria-hidden', 'false');

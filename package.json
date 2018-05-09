@@ -1,5 +1,5 @@
 {
-  "name": "react-aria-modal",
+  "name": "react-aria-modal-2",
   "version": "2.12.1",
   "description": "A fully accessible and flexible React modal built according WAI-ARIA Authoring Practices",
   "main": "dist/react-aria-modal.js",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidtheclark/react-aria-modal.git"
+    "url": "git+https://github.com/edmon1024/react-aria-modal-2.git"
   },
   "keywords": [
     "react",
@@ -27,9 +27,9 @@
   "author": "David Clark",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidtheclark/react-aria-modal/issues"
+    "url": "https://github.com/edmon1024/react-aria-modal-2/issues"
   },
-  "homepage": "https://github.com/davidtheclark/react-aria-modal#readme",
+  "homepage": "https://github.com/edmon1024/react-aria-modal-2#readme",
   "dependencies": {
     "focus-trap-react": "^3.0.4",
     "react-displace": "^2.3.0"

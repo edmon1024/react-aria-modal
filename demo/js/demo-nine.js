@@ -1,6 +1,6 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
-const AriaModal = require('../../src/react-aria-modal');
+const AriaModal = require('../../src/react-aria-modal-2');
 
 class DemoNine extends React.Component {
   constructor(props) {

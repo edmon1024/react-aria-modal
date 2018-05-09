@@ -1,7 +1,7 @@
 const React = require('react');
 const ReactDOM = require('react-dom');
 const FocusTrap = require('focus-trap-react');
-const AriaModal = require('../../src/react-aria-modal');
+const AriaModal = require('../../src/react-aria-modal-2');
 
 class DemoTen extends React.Component {
   constructor(props) {
